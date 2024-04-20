@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra(Intent.EXTRA_SUBJECT, emailsubject);
             intent.putExtra(Intent.EXTRA_TEXT, emailbody);
 
-            // set type of intent
+            //set type of intent
             intent.setType("message/rfc822");
 
             // startActivity with intent with chooser as Email client using createChooser function
